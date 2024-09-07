@@ -1,10 +1,13 @@
 - title: About
   url: /about.html
 
-- title: Source
-  url: https://github.com/altuser6a/book_club
+- title: Calendar
+  url: /calendar.html
 
-- title: Code of Conduct
+- title: Submit
+  url: https://github.com/altuser6a/book_club/_RFCOMS/README.md
+
+- title: Conduct
   url: /code-of-conduct.html
 
 - title: Designer
