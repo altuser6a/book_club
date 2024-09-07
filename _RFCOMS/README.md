@@ -1,9 +1,10 @@
 ---
-title: Submitting a Request for Comment on Your Shit
 authors: 
     - altuser6a
 category: guide
 ---
+
+# Submitting a Request for Comment on Your Shit
 
 *Todo*
 
