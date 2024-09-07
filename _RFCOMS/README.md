@@ -4,7 +4,7 @@ authors:
 category: guide
 ---
 
-# Submitting a Request for Comment on Your Shit
+# Submitting a Request for Comment
 
 *Todo*
 
