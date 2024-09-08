@@ -10,8 +10,9 @@ relative_permalinks: false
 title:            Book Club
 tagline:          'A site for our bookclub!'
 description:      'A site for our bookclub'
-url:              https://altuser6a.github.io/book_club/ 
-baseurl:          /book_club/docs
+domain:           altuser6a.github.io  
+url:              https://altuser6a.github.io 
+baseurl:          /docs/
 
 author:
   name:           'altuser6a'
