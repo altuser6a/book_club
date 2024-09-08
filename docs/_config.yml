@@ -4,15 +4,15 @@ highlighter:      pygments
 
 # Permalinks
 permalink:        pretty
-relative_permalinks: true
+relative_permalinks: false
 
 # Setup
 title:            Book Club
 tagline:          'A site for our bookclub!'
 description:      'A site for our bookclub'
 domain:           altuser6a.github.io  
-url:              https://altuser6a.github.io/book_club
-baseurl:          /
+url:              https://altuser6a.github.io/
+baseurl:          /book_club
 
 author:
   name:           'altuser6a'
