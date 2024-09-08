@@ -17,7 +17,7 @@ title: Posts
 <ul>
   {% for post in site.posts %}
     <li>
-      {{ post.date | date: "%b %m '%y" }} - <a href="{{ post.url }}">{{ post.title }}</a> 
+      {{ post.date | date: "%b %m '%y" }} - <a href="{{ site.baserl }}{{ post.url }}">{{ post.title }}</a> 
     </li>
   {% endfor %}
 </ul>
