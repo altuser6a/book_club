@@ -1,0 +1,29 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: false
+
+# Setup
+title:            Book Club
+tagline:          'A site for our bookclub!'
+description:      'A site for our bookclub!'
+url:              https://altuser6a.github.io/book_club/ 
+baseurl:          /
+
+author:
+  name:           'altuser6a'
+  url:            todo
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/altuser6a/book_club
+
+plugins:
+  - jekyll-paginate
