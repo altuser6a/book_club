@@ -12,6 +12,7 @@ tagline:          'A site for our bookclub!'
 description:      'A site for our bookclub'
 domain:           altuser6a.github.io  
 url:              https://altuser6a.github.io
+baseurl:          /book_club  
 repository:       https://github.com/altuser6a/book_club
 
 author:
