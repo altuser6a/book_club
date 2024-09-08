@@ -11,7 +11,7 @@ title:            Book Club
 tagline:          'A site for our bookclub!'
 description:      'A site for our bookclub'
 url:              https://altuser6a.github.io/book_club/ 
-baseurl:          /
+baseurl:          /docs
 
 author:
   name:           'altuser6a'
