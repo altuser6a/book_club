@@ -9,7 +9,7 @@ relative_permalinks: false
 # Setup
 title:            Book Club
 tagline:          'A site for our bookclub!'
-description:      'A site for our bookclub!'
+description:      'A site for our bookclub'
 url:              https://altuser6a.github.io/book_club/ 
 baseurl:          /
 
@@ -17,7 +17,7 @@ author:
   name:           'altuser6a'
   url:            todo
 
-paginate:         1
+paginate:         2
 
 # Custom vars
 version:          2.1.0

@@ -3,18 +3,42 @@ layout: default
 title: Home
 ---
 
+
+<h1> What you've missed ...</h1>
+
+<hr>
+
 <div class="posts">
   {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
+  <div class="post" style="padding: 0 0 5px 0; box-shadow: 0px 5px">
+    <h2 class="post-title">
       <a href="{{ post.url }}">
         {{ post.title }}
       </a>
-    </h1>
+    </h2>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+    {% if post.tags.size > 0 %} 
+        {% for tagName in post.tags %} 
+            {% capture tags_content %} 
+                 {{ tags_content }} 
+                 #{{ tagName }} 
+            {% endcapture %} 
+        {% endfor %} 
+    {% else %} 
+        {% assign tags_content = '' %} 
+    {% endif %} 
 
-    {{ post.content }}
+    <span class="post-date" >{{ post.date | date_to_string }} </span>
+    <span class="post-date" >{% if post.shortAuthor %} by {{ post.shortAuthor }} {% endif %}</span>
+    <span class="post-date" >{{ tags_content }}</span>
+
+    {% if post.abstract %}
+        <p style="padding: 0 0 5px 0;">
+            <b>Abstract:</b> {{ post.abstract }}
+        </p>
+    {% else %}    
+        {{ post.excerpt }}
+    {% endif %}
   </div>
   {% endfor %}
 </div>
